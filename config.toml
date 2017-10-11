@@ -1,3 +1,17 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Scott MacLeod"
+
+[[menu.main]]
+    name = "Blog"
+    weight = -100
+    url = "/blog/"
+  [[menu.main]]
+      name = "Five Things"
+      weight = -90
+      url = "/five-things/"
+[[menu.main]]
+    name = "About"
+    weight = -50
+    identifier = "about"
+    url = "/about/"
