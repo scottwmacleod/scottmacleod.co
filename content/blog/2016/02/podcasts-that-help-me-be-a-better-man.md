@@ -7,13 +7,13 @@ Recently, I’ve heavily cut back on the podcasts I listen to, as I’ve been re
 
 Recently, I’ve taken my self improvement interest into the podcast realm, and have come to listen to three podcasts regularly that I feel improve myself. They are:
 
-# The Art of Manliness
+## The Art of Manliness
 
 This podcast is a companion to the website, [The Art of Manliness](http://www.artofmanliness.com/), which has many tips for people who are looking to improve themselves in many different ways. The podcast also takes this on board with episodes on [“Deep Work”(http://www.artofmanliness.com/2016/01/12/podcast-168-the-value-of-deep-work-in-the-age-of-distraction/)], [Stoic philosophy](http://www.artofmanliness.com/2015/10/31/podcast-151-the-way-of-the-stoic-warrior/), and [digital etiquette](http://www.artofmanliness.com/2015/12/11/podcast-162-digital-manners-etiquette-for-the-modern-man/).
 
 I feel that the wide and varied interviews that appear in the Art of Manliness feed are very beneficial for all people, males and females. Sure, [wet shaving](http://www.artofmanliness.com/2015/09/18/podcast-139-the-secrets-of-shaving/) may not be 100% useful for all people, but having an understanding of many of the skills that are talked about, will improve many people’s lives.
 
-# The Tim Ferriss Show
+## The Tim Ferriss Show
 
 If you haven’t read a [Tim Ferriss](http://fourhourworkweek.com/blog/) book, I’d be very surprised, as Ferriss has become a large personality in the self-improvement sector. His podcast generally shifts away from the very direct action style of his books to more of a interview show with people who interest and inspire him.
 
@@ -23,7 +23,7 @@ Some of my favourite episodes have been with: [Jamie Foxx](http://fourhourworkwe
 
 In a very short time, the Tim Ferriss Show has become one of my most listened to podcasts, as Ferriss is very good a coaxing out interesting tidbits from his guests.
 
-# Waking Up with Sam Harris
+## Waking Up with Sam Harris
 
 Waking Up is a very interesting podcast being a mix of interviews Sam Harris with his guests, a series of monologues that Harris has about a variety of different subjects, and a series of Ask Me Anything’s which can cover an even larger array of topics. However this mashes together into a interesting feed, which makes me think a lot more than normal.
 

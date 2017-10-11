@@ -7,7 +7,7 @@ So yes I took a little while to get to writing this. But I’m putting that blam
 
 For the month of February, I mainly read three books: Mediations by Marcus Aurelius, Lying by Sam Harris, and The Obstacle is the Way by Ryan Holiday.
 
-# Mediations — Marcus Aurelius
+## Mediations — Marcus Aurelius
 
 [Meditations](https://www.bookdepository.com/Meditations-Marcus-Aurelius/9780812968255?a_aid=scottmacleod) (the specific translation is the one by Gregory Hays) is a very interesting book, written in the Second Century CE (or AD as some people prefer), it surprisingly is very relevant today. It was written by the Roman Emperor Marcus Aurelius as a private journal, the thoughts he wrote down have applications even today.
 
@@ -27,7 +27,7 @@ This philosophy has resonated with me quite a lot and I suggest that a lot of pe
 
 But I’ll cover this off more when we get to The Obstacle is the Way below.
 
-# Lying — Sam Harris
+## Lying — Sam Harris
 
 [Lying](https://www.bookdepository.com/Lying-Sam-Harris-Annak-Harris/9781940051000?a_aid=scottmacleod) is more of a short essay than a full book, but it still thoroughly covers the subject of lying. In the roughly an hour read, I had my preconceptions challenged in a few different ways, but as [I mentioned in my earlier post](http://scottmacleod.co/journal/2016/2/21/lying), the biggest impact has come from my belief that no one has a good reason to ever lie.
 
@@ -35,7 +35,7 @@ Harris’ approach isn’t all about the blunt truth though, while he says that 
 
 This has lead to me continuing to try to always speak the truth, although I have struggled with old habits getting in the way before my conscious mind realises what I am saying. It is a very interesting experience as sometimes you have to choose your words very carefully, which is actually a surprisingly good side effect as the longer you take to say something the more you can think about what needs to be said, rather than filling up space with useless words. Which could harm without knowing.
 
-# The Obstacle is the Way — Ryan Holiday
+## The Obstacle is the Way — Ryan Holiday
 
 I mentioned Stoic philosophy before in the context of Marcus Aurelius, however Ryan Holiday takes on the practical application of Stoicism in [The Obstacle is the Way](https://www.bookdepository.com/The-Obstacle-is-the-Way/9781781251492?a_aid=scottmacleod). I have to say that February was a great month for me when it came to good books, and The Obstacle is the Way is probably the top one for dealing with the stresses of everyday life.
 
@@ -43,7 +43,7 @@ Holiday breaks up his book into three areas: Perception, Action, and Will. These
 
 Again this is a relatively short book (at 181 pages) which has some very direct applications, making sure this isn’t a book which is read and then forgotten. But a book I’ll surely read again and again throughout my life.
 
-# Freakonomics — Steven D. Levitt & Stephen J. Dubner
+## Freakonomics — Steven D. Levitt & Stephen J. Dubner
 
 [Freakonomics](https://www.bookdepository.com/Freakonomics-Steven-D-Levitt-Stephen-J-Dubner/9780141019017?a_aid=scottmacleod) was a surprise addition to my reading list in February, as I’ve always looked at it in the past as a book that looked like it was hyped up too much. But after a recommendation from my boss, I decided to pick it up and give it a try.
 

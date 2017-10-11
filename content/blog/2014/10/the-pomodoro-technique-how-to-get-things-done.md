@@ -5,7 +5,7 @@ date: 2014-10-13T15:23:30+10:00
 
 Originally appeared on the [Marketing Results](https://www.marketingresults.com.au/blog/) blog.
 
-# The Idea of the System
+## The Idea of the System
 
 The Pomodoro Technique was formalised by [Francesco Cirillo](https://web.archive.org/web/20160319173932/http://francescocirillo.com/), while he was a student. The name Pomodoro comes from the timer that Cirillo used which was in the shape of a tomato (pomodoro is Italian for tomato). The idea of the technique is simple, whenever you have a large task to complete break that task down into small intervals, called Pomodoro’s, that are seperated by short breaks.
 
@@ -25,7 +25,7 @@ One of the best things about the Pomodoro Technique is that it is a flexible too
 
 Of course there will be things that come up, but overall I do suggest that if the distraction that needs to be handled soon can wait until the end of the Pomodoro. This will help train your brain to focus when it needs to focus and handle distractions more efficiently.
 
-# Tools designed around the Pomodoro Technique
+## Tools designed around the Pomodoro Technique
 
 There are a variety of tools available these days that are built around the Pomodoro Technique. At the most basic you can simply use any timer that goes up to 25 minutes, such as an egg timer or the timer in your phone (you can also buy Cirillo’s book and the timer [on his website](https://web.archive.org/web/20160319173932/http://pomodorotechnique.com/timer/).
 
@@ -41,7 +41,7 @@ Other specifically made software include:
 
 **Web – [Marinara Timer](https://web.archive.org/web/20160319173932/http://www.marinaratimer.com/) –** If you’re not a fan of platform specific solutions or cannot install software on your computer at work, there is a lot of websites that have timers designed around the Pomodoro Technique, a good one is Mariana Timer, which generates you a unique URL so you can bookmark it and keep track of your Pomodoro’s. It’ll also keep track of the time, so if you navigate away and then come back it’ll show the right amount of time that has passed in the Pomodoro.
 
-# Conclusion
+## Conclusion
 
 Ultimately it isn’t about the tool you use to adopt the Pomodoro Technique, it is about making sure that you focus for a set period of time. Knowing in the back of your mind that you have a break coming up frees up your mind from a lot of distractions as you know that there will be a time in less than 25 minutes that you can use to indulge that distraction.
 
