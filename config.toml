@@ -87,7 +87,7 @@ url = "/blog/"
 name = "Five Things"
 weight = -80
 identifier = "five-things"
-url = "/five-things"
+url = "/five-things/"
 
 [blackfriday]
 hrefTargetBlank = true
