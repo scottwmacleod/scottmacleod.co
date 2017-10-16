@@ -84,10 +84,10 @@ weight = -90
 identifier = "blog"
 url = "/blog/"
 [[menu.main]]
-name = "Five Things"
+name = "About"
 weight = -80
-identifier = "five-things"
-url = "/five-things/"
+identifier = "about"
+url = "/about/"
 
 [blackfriday]
 hrefTargetBlank = true
