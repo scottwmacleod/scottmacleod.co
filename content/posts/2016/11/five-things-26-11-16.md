@@ -8,6 +8,7 @@ categories:
 cover:
   image: /images/five-things.png
   style: full
+---
 ## [Can Hypothermia Save Gunshot Victims?][1]—The New Yorker
 
 It’s interesting that a technique that has the strong potential to save people’s lives is hit with so much controversy… I think Peter Safa and Sam Tisherman should be commended for pushing forward against the controversy for decades to get to the human trail stage.
