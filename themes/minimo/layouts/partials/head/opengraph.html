@@ -10,7 +10,7 @@
   {{- end -}}
 '>
 
-{{- with .Params.Cover -}}
+{{- with .Params.cover -}}
   {{- $type := ( printf "%T" . ) -}}
   {{- $isMap := ( not ( eq $type "string" ) ) -}}
   <meta property='og:image' content='
@@ -25,8 +25,10 @@
   {{- range first 5 . -}}
     <meta property='og:image' content='{{ . | absURL }}'>
   {{- end -}}
-{{- else -}}
-  {{- range $authorID := .Params.Authors -}}
+{{- end -}}
+
+{{- if not ( or .Params.images .Params.cover ) -}}
+  {{- range $authorID := .Params.authors -}}
     {{- $author := ( index $.Site.Data.authors $authorID ) -}}
     {{- with $author -}}
       {{- if or .social.email ( and .email.username .email.host ) -}}
@@ -45,19 +47,19 @@
 {{- end -}}
 
 {{- with .Params.audios -}}
-  {{- range first 6 . -}}
+  {{- range first 5 . -}}
     <meta property='og:audio' content='{{ . | absURL }}'>
   {{- end -}}
 {{- end -}}
 
 {{- with .Params.videos -}}
-  {{- range first 6 . -}}
+  {{- range first 5 . -}}
     <meta property='og:video' content='{{ . | absURL }}'>
   {{- end -}}
 {{- end -}}
 
 {{- if .IsPage -}}
-  {{- range $authorID := .Params.Authors -}}
+  {{- range $authorID := .Params.authors -}}
     {{- $author := ( index $.Site.Data.authors $authorID ) -}}
     {{- with $author.social.facebook -}}
       <meta property='article:author' content='https://facebook.com/{{ . }}'>
