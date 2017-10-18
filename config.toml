@@ -8,7 +8,7 @@ theme = "minimo"
 disqusShortname = ""
 googleAnalytics = ""
 
-Paginate = 10
+Paginate = 20
 preserveTaxonomyNames = true
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
@@ -79,10 +79,10 @@ weight = -100
 identifier = "home"
 url = "/"
 [[menu.main]]
-name = "Blog"
+name = "Posts"
 weight = -90
-identifier = "blog"
-url = "/blog/"
+identifier = "posts"
+url = "/posts/"
 [[menu.main]]
 name = "About"
 weight = -80
