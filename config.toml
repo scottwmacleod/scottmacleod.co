@@ -1,100 +1,137 @@
 baseURL = "http://www.example.com"
 title = "Scott MacLeod"
-# for smart copyright line, leave this blank and check [params.copyright]
-copyright = ""
+languageCode = "en-us"
+theme = "harvey"
 
-theme = "minimo"
-
-disqusShortname = ""
-googleAnalytics = ""
-
-Paginate = 20
-preserveTaxonomyNames = true
-
-# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
-pygmentsCodefences = true
-
-# Language Configuration
-defaultContentLanguage = "en"
-
-[params.info]
+[params]
+author = "Scott MacLeod"
+tagline = "Scott MacLeod is a problem solver and writer living and working in Brisbane, Australia."
 description = "Scott MacLeod is a problem solver and writer living and working in Brisbane, Australia."
-title404 = "Nothing's here!"
+dateFormat = "Jan 2, 2006"
+themeColor = "#222"
+recentPostsCount = 7
+recentPostsText = 'Recent Posts'
+footerText = "&copy; 2017 All rights reserved."
 
-[params.assets]
-favicon = "favicon.ico"
-customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
-[params.copyright]
-prefix = ""
-holder = "Scott MacLeod"
-startYear = "2017"
-suffix = ""
+#---
 
-[params.settings]
-# date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
-hideEntryNavigation = false
-hideSocialMenu = false
-showReadingTime = true
 
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
+## for smart copyright line, leave this blank and check [params.copyright]
+#copyright = ""
 
-[params.opengraph.twitter]
-page = "" # Twitter page username
+#theme = "minimo"
 
-[params.seo]
-# Title Separator: - – — · • * ⋆ | ~ « » < >
-titleSeparator = "•"
+#disqusShortname = ""
+#googleAnalytics = ""
 
-[params.social]
-codepen = "MunifTanjim"
-email = "contact@example.com"
-facebook = "MunifTanjim"
-github = "geminiscotty"
-instagram = "MunifTanjim"
-linkedin = "muniftanjim"
-twitter = "scottmacleod_"
+#Paginate = 20
+#preserveTaxonomyNames = true
 
-[params.social.config]
-platforms = ["github","twitter"]
+## Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+#pygmentsCodefences = true
 
-[taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
+## Language Configuration
+#defaultContentLanguage = "en"
 
-[permalinks]
-page = "/:slug/"
+#[params.info]
+#description = "Scott MacLeod is a problem solver and writer living and working in Brisbane, Australia."
+#title404 = "Nothing's here!"
 
-[[menu.main]]
-name = "Home"
-weight = -100
-identifier = "home"
-url = "/"
-[[menu.main]]
-name = "Posts"
-weight = -90
-identifier = "posts"
-url = "/posts/"
+#[params.assets]
+#favicon = "favicon.ico"
+#customCSS = ["css/custom.css"]
+#customJS = ["js/custom.js"]
+#gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+#[params.copyright]
+#prefix = ""
+#holder = "Scott MacLeod"
+#startYear = "2017"
+#suffix = ""
+
+#[params.settings]
+## date & time format: https://golang.org/pkg/time/
+#dateFormat = "2006, Jan 02"
+#listDateFormat = "2006, Jan 02"
+#hideEntryNavigation = false
+#hideSocialMenu = false
+#showReadingTime = true
+
+#[params.opengraph.facebook]
+#admins = [] # array of Facebook IDs
+#appID = ""
+#pageID = ""
+
+#[params.opengraph.twitter]
+#page = "" # Twitter page username
+
+#[params.seo]
+## Title Separator: - – — · • * ⋆ | ~ « » < >
+#titleSeparator = "•"
+
+#[params.social]
+#codepen = "MunifTanjim"
+#email = "contact@example.com"
+#facebook = "MunifTanjim"
+#github = "geminiscotty"
+#instagram = "MunifTanjim"
+#linkedin = "muniftanjim"
+#twitter = "scottmacleod_"
+
+#[params.social.config]
+#platforms = ["github","twitter"]
+
+#[taxonomies]
+#author = "authors"
+#category = "categories"
+#tag = "tags"
+
+#[permalinks]
+#page = "/:slug/"
+
+#[[menu.main]]
+#name = "Home"
+#weight = -100
+#identifier = "home"
+#url = "/"
+#[[menu.main]]
+#name = "Posts"
+#weight = -90
+#identifier = "posts"
+#url = "/posts/"
 [[menu.main]]
 name = "About"
 weight = -80
 identifier = "about"
 url = "/about/"
 
-[blackfriday]
-hrefTargetBlank = true
-
-[languages]
-# edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
+# Footer menu
+[[menu.footer]]
+name = "Github"
+identifier = "github"
+url = "https://github.com/example"
 weight = 1
+
+[[menu.footer]]
+name = "Twitter"
+identifier = "twitter"
+url = "https://twitter.com/example"
+weight = 2
+
+[[menu.footer]]
+name = "RSS"
+identifier = "rss"
+url = "/index.xml"
+weight = 3
+
+#[blackfriday]
+#hrefTargetBlank = true
+
+#[languages]
+## edit this block for your own language
+#[languages.en]
+#lang = "en"
+#languageName = "English"
+#weight = 1
+#
