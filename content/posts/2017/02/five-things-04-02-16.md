@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Death by Tactile Paving: China’s Precarious Paths for the Visually Impaired][1]—99% Invisible
 

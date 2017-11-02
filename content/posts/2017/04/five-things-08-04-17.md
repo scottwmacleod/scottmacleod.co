@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Termite clay kiln & pottery][1]—Primitive Technology
 

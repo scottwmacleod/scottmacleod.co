@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 
 ## [Work It Harder Make It Better Do It Faster Makes Us Stronger]—Matter

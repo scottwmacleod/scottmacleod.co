@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Humans Need Not Reply][1]—CGP Grey
 

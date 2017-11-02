@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Indifference is a power][1]—Aeon
 

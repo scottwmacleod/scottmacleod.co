@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 Welcome to the final Five Things for 2016, I hope you’ve been enjoying them. I know a lot of people have been decrying this as not a great year so I though I’d share a few articles showing some the more positive stories of 2016.
 

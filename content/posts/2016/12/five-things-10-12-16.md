@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [The Most Gruesome Parasites – Neglected Tropical Diseases – NTDs ][1]—Kurzgesagt – In a Nutshell
 

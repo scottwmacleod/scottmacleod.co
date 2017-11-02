@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [With “Burst Your Bubble,” The Guardian pushes readers beyond their political news boundaries][1]—Nieman Lab
 

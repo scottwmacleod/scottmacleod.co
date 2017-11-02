@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Embrace the Mess: The Upside of Disorder][1]—Farnam Street Blog
 

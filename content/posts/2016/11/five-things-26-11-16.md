@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Can Hypothermia Save Gunshot Victims?][1]—The New Yorker
 

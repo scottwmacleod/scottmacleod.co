@@ -7,7 +7,7 @@ ccategories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [The Internet With a Human Face][1]—beyond tellerrand
 

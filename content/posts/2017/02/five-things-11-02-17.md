@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [I Helped Create the Milo Trolling Playbook. You Should Stop Playing Right Into It][1]—Observer
 

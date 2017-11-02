@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [5 Things That Should Be Taught in Every School][1]—Mark Manson
 

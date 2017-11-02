@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Novelist Connie Willis explains why telepathy is a terrible superpower][1]—The Verge
 

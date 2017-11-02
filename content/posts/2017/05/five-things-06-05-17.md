@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 This week brings some interesting ideas about how we look at the human civilisation, from where we come from, to how we can fix some of the mistakes we’ve made. Also one of the most important things I’ve included so far, in Believe, which explores how we evaluate ideas, and how we can try to accept truths we disagree with.
 

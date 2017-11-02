@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [As Far As Your Brain is Concerned, Audiobooks Are Not ‘Cheating’][1]—New York Magazine
 

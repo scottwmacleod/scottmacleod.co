@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## <a target="_top" href="http://jamesclear.com/taking-action">The Mistake Smart People Make: Being In Motion vs. Taking Action</a>—James Clear
 

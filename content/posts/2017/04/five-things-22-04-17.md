@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 So this week, I’ve started reading [Utopia for Realists by Rutger Bregman][1]&nbsp;([Audible][2]), and it’s core concept is that perhaps we have it too good right now, because as a society, we’re content. But the problem with being content is that we’re not looking for the next leap forward, the next thing to make our lives better. We’re not looking to the future, we’re too content with the present.
 

@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Fix the internet by writing good stuff and being nice to people][1]—Woman. Legend.Blog
 

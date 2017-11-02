@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [4 ways to make a city more walkable | Jeff Speck][1]—TED
 

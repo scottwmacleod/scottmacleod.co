@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Are GMOs Good or Bad? Genetic Engineering & Our Food][1]—Kurzgesagt – In a Nutshell&nbsp;
 

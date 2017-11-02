@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 ## [Information Density &#8211; How Mr. Robot Does a Lot with a Little][1]—Extra Credits
 

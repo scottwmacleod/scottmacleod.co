@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 This week has been an interesting reflection on the history of humanity and how much human society has advanced over the last 50,000 years and the even more insane progress in the last 100.
 

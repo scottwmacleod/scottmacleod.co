@@ -7,7 +7,7 @@ categories:
   - Five Things
 cover:
   image: /images/five-things.png
-  style: full
+  style: wide
 ---
 
 ## [How Facebook Made Your Birthday a Business](https://theringer.com/facebook-birthdays-business-5ddb9d73732f)—The Ringer
