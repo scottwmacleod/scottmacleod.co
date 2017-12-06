@@ -1,6 +1,10 @@
 ---
 title: '#trypod'
 date: 2017-03-08
+cover:
+  image: /images/2017/03/siddharth-bhogra-143322.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/k3kdc5MQYyk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Siddharth Bhogra</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 There is a new campaign on Twitter to share podcasts under the [#trypod hashtag](https://twitter.com/search?q=%23trypod). I thought this was a great idea so I wanted to share my top 3 podcasts that everyone should listen to!
