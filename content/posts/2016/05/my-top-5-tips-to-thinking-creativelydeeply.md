@@ -1,6 +1,10 @@
 ---
 title: My Top 5 Tips to Thinking Creatively/Deeply
 date: 2016-05-13
+cover:
+  image: /images/2016/05/iker-urteaga-246955.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/TL5Vy1IM-uA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Iker Urteaga</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 Just a few of my top tips on getting the most out of your brain.

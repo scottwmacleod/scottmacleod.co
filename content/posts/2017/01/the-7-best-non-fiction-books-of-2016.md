@@ -1,6 +1,10 @@
 ---
 title: The 7 best non-fiction books of 2016
 date: 2017-01-15
+cover:
+  image: /images/2017/01/janko-ferlic-174927.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/sfL_QOnmy00?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Janko Ferlič</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 2016 was a great year for reading, as this year I got through more books that I ever though I could. This year I read 29 non-fiction books, and for this post I’ve chosen the top 7 that I’ve gotten the most value out of, and I think they can provide value to you.

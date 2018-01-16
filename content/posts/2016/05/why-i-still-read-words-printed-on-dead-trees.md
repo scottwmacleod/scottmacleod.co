@@ -1,6 +1,10 @@
 ---
 title: Why I Still Read Words Printed on Dead Trees
 date: 2016-05-10
+cover:
+  image: /images/2016/05/joao-silas-51725.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/9c_djeQTDyY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">João Silas</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 Learning something new should be the goal of everyone, every single day. And these days it is easy; with sources such as podcasts, Youtube videos, documentaries on Netflix, and even new platforms like [Blinkist](https://www.blinkist.com/); there are ample ways to learn something new.

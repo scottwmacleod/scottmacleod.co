@@ -1,6 +1,10 @@
 ---
 title: Some New Podcast Recommendations
 date: 2016-05-15
+cover:
+  image: /images/2016/05/sunrise-467859.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/qInocvnLuRQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sunrise</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 Over the last couple of months I’ve been listening to some great podcasts and wanted to share them with everyone. So here we go:

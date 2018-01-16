@@ -1,6 +1,10 @@
 ---
 title: Take the Time to Think Today
 date: 2016-05-11
+cover:
+  image: /images/2016/05/patrick-tomasso-472279.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/SzNBpsR4jDU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Tomasso</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 In today’s distracted world, there are so many things that take up our time. TV shows, podcasts, books, music, movies, etc. All have an important place in our society and as such often take up a lot of our free time; sometimes even encroaching on our work time as well.

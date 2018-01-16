@@ -1,6 +1,10 @@
 ---
 title: Giving Kudos When Kudos Are Due
 date: 2016-05-12
+cover:
+  image: /images/2016/05/felix-russell-saw-113844.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/P8gG04sfEec?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Felix Russell-Saw</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 This is something I’ve actually been thinking about for a couple of days…
