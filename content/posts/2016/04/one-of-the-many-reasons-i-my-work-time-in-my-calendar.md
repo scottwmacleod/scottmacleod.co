@@ -1,6 +1,10 @@
 ---
 title: One of the many reasons I my work time in my calendar
 date: 2016-04-27
+cover:
+  image: /images/2016/04/chuttersnap-255214.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/aT5-sSYP6e4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">chuttersnap</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 > “Let’s start with the premise that you have a 40 hour week. (If you just started crying you need a new job.) That’s 40 hours of time to do your job. Now look at your calendar. If your job is to spend a very large part of those 40 hours in meetings scheduled for you by other people then you’re fine. If your job is to produce things such as code, comps, analyses, flow documents, etc., then why isn’t the time to do that on your calendar?
