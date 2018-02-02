@@ -1,6 +1,10 @@
 ---
 title: The Books I Read in February
 date: 2016-03-12
+cover:
+  image: /images/2016/03/carl-cerstrand-127444.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/OO2zIzTfBtQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carl Cerstrand</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 So yes I took a little while to get to writing this. But I’m putting that blame completely on Helen Wecker’s The Golem and the Jinni, which is an amazing piece of fiction, and a book I’ll write about later.

@@ -1,6 +1,10 @@
 ---
 title: Why you should take “Focus Time” even as a Manager
 date: 2016-04-22
+cover:
+  image: /images/2016/04/david-von-diemar-262465.jpg
+  caption: Photo by <a href="https://unsplash.com/photos/-BZlnxwe8eQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">David von Diemar</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  style: wide
 ---
 
 > So one day I stopped.
