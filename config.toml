@@ -3,93 +3,17 @@ title = "Scott MacLeod"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
-theme = "minimo"
+theme = "sam"
 
-disqusShortname = ""
-googleAnalytics = ""
+[[params.mainMenu]]
+    link = "/posts"
+    text = "writing"
 
-Paginate = 10
-preserveTaxonomyNames = true
+[[params.mainMenu]]
+    link = "/reading-list"
+    text = "things to read"
 
-# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
-pygmentsCodefences = true
 
-# Language Configuration
-defaultContentLanguage = "en"
-
-[params.info]
-description = "Scott MacLeod is a problem solver and writer living and working in Brisbane, Australia."
-title404 = "Nothing's here!"
-
-[params.assets]
-favicon = "favicon.ico"
-customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
-
-[params.copyright]
-prefix = ""
-holder = "Scott MacLeod"
-startYear = "2017"
-suffix = ""
-
-[params.settings]
-# date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
-hideEntryNavigation = false
-hideSocialMenu = false
-showReadingTime = true
-
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = "" # Twitter page username
-
-[params.seo]
-# Title Separator: - – — · • * ⋆ | ~ « » < >
-titleSeparator = "•"
-
-[params.social]
-github = "geminiscotty"
-twitter = "scottmacleod_"
-
-[params.social.config]
-platforms = ["github","twitter"]
-
-[taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
-
-[permalinks]
-page = "/:slug/"
-
-[[menu.main]]
-name = "Home"
-weight = -100
-identifier = "home"
-url = "/"
-[[menu.main]]
-name = "Posts"
-weight = -90
-identifier = "posts"
-url = "/posts/"
-[[menu.main]]
-name = "About"
-weight = -80
-identifier = "about"
-url = "/about/"
-
-[blackfriday]
-hrefTargetBlank = true
-
-[languages]
-# edit this block for your own language
-[languages.en]
-lang = "en"
-languageName = "English"
-weight = 1
+[[params.mainMenu]]
+    link = "/about"
+    text = "who dis?"
