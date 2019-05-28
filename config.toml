@@ -5,15 +5,4 @@ copyright = ""
 
 theme = "hugo-paper"
 
-[[params.mainMenu]]
-    link = "/posts"
-    text = "writing"
-
-[[params.mainMenu]]
-    link = "/reading-list"
-    text = "things to read"
-
-
-[[params.mainMenu]]
-    link = "/about"
-    text = "who dis?"
+LanguageCode = "en"
