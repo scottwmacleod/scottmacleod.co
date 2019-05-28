@@ -2,6 +2,7 @@
 title: About
 author: scottmacleod
 type: page
+menu: "main"
 ---
 &nbsp;
 
