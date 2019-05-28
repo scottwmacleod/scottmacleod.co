@@ -3,6 +3,7 @@ title: Reading List
 author: scottmacleod
 type: page
 date: 2017-10-13T03:55:47+00:00
+menu: "main"
 
 ---
 ## 1.&nbsp;[Meditations ][1]— Marcus Aurelius
@@ -11,50 +12,50 @@ The personal diary of Marcus Aurelius (the last of the so-called “Five Good Em
 
 I strongly suggest that everyone has a read of this book, as it’s a great into to one of the later Stoic practitioners, and give a practical view of Stoicism, but even if you don’t buy into the whole philosophy, there will be some points that’ll be of use to you.&nbsp;
 
-Out of the hundreds of marked quotes, this one is my favourite:<figure> 
+Out of the hundreds of marked quotes, this one is my favourite:<figure>
 
 > <span>&#8220;</span>If you are distressed by anything external, the pain is not due to the thing itself, but to your estimate of it; and this you have the power to revoke at any moment.<span>&#8221;</span>
-    
-> </blockquote><figcaption class="source">&mdash; Marcus Aurelius</figcaption></figure> 
-> 
+
+> </blockquote><figcaption class="source">&mdash; Marcus Aurelius</figcaption></figure>
+>
 > ## 2.&nbsp;[Nudge][2] —&nbsp;Richard H. Thaler &&nbsp;Cass R. Sunstein
-> 
+>
 > ## 3.&nbsp;[Ego is the Enemy ][3]— Ryan Holiday
-> 
+>
 > ## 4.&nbsp;[How to Win Friends and Influence People][4] — Dale Carnegie
-> 
+>
 > ## 5.&nbsp;[The Obstacle is the Way][5] — Ryan Holiday
-> 
+>
 > ## 6.&nbsp;[Sapiens: A Brief History of Humankind][6] —&nbsp;Yuval Noah Harari
-> 
+>
 > ## 7.&nbsp;[The Subtle Art of Not Giving a F*ck][7] — Mark Manson
-> 
+>
 > ## 8.&nbsp;[Man&#8217;s Search for Meaning][8] — Viktor E. Frankl
-> 
+>
 > ## 9.&nbsp;[The Richest Man in Babylon][9] — George S. Clason
-> 
+>
 > ## 10.&nbsp;[Creativity, Inc.][10] — Ed Catmull with Amy Wallace
-> 
+>
 > ## 11.&nbsp;[Extreme Ownership][11] — Jocko Willink & Leif Babin
-> 
+>
 > ## 12.&nbsp;[The Shallows][12] —&nbsp;Nicholas Carr
-> 
+>
 > ## 13.&nbsp;[The Checklist Manifesto][13] — Atul Gawande
-> 
+>
 > ## 14.&nbsp;[Originals][14] —&nbsp;Adam Grant
-> 
+>
 > ## 15.&nbsp;[Work Rules!][15] — Laszlo Bock
-> 
+>
 > ## 16.&nbsp;[Deep Work][16] — Cal Newport
-> 
+>
 > ## 17.&nbsp;[The 7 Habits of Highly Effective People][17] — Stephen R. Covey
-> 
+>
 > ## 18.&nbsp;[Quiet: The Power of Introverts in a World That Can’t Stop Talking][18] — Susan Cain
-> 
+>
 > ## 19.&nbsp;[Elon Musk][19] —&nbsp;Ashlee Vance
-> 
+>
 > ## 20.&nbsp;[#GIRLBOSS][20] — Sophia Amoruso
-> 
+>
 > ## 21.&nbsp;[Lying][21] — Sam Harris
 
  [1]: https://www.bookdepository.com/Meditations-Marcus-Aurelius/9780812968255?a_aid=scottmacleod

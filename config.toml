@@ -3,7 +3,7 @@ title = "Scott MacLeod"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
-theme = "sam"
+theme = "hugo-paper"
 
 [[params.mainMenu]]
     link = "/posts"
