@@ -22,7 +22,7 @@
   <footer class="entry-footer">
     <time>{{ .Date.Format (.Site.Params.dateFormat | default "2006.1.2") }}</time>
   </footer>
-  <a class="entry-link" href="{{ .Permalink }}"></a>
+  <a class="entry-link" href="{{ .Permalink }}" aria-label="Read the post {{ .Title }}"></a>
 </article>
 {{ end }}
 {{ end }}
