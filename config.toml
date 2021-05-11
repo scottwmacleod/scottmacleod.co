@@ -1,0 +1,8 @@
+baseURL = "https://scottmacleod.co"
+title = "Scott MacLeod"
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = ""
+
+theme = "hugo-paper"
+
+LanguageCode = "en"
