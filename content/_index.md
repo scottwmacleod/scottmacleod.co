@@ -3,7 +3,7 @@ title: Home
 type: social
 ---
 
-# Hi, I'm Scott
+# Hi, I'm Scott!
 
 I’m an operations and product manager based in Australia. Currently I’m working full-time for BrokerEngine.
 
