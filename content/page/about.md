@@ -1,10 +1,11 @@
 ---
 title: About
 author: scottmacleod
-type: page
+type: archive
 date: 2017-10-13T03:55:47+00:00
 menu: "main"
 ---
+
 &nbsp;
 
 ![][1]
@@ -17,4 +18,4 @@ I am also passionate about design, taking time to explore User Experience, and h
 
 I also enjoy exploring narratives, whether it be watching a TV series, reading a book, or running a game of Dungeons & Dragons.
 
- [1]: /images/me.jpg
+[1]: /images/me.jpg
