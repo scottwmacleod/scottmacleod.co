@@ -1,7 +1,7 @@
 baseURL: "https://scottmacleod.co"
 languageCode: "en-au"
 title: "Scott MacLeod"
-theme: "hugo-tania"
+theme: "hugo-noir"
 paginate: 6
 
 params:
