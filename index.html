@@ -1,88 +1,340 @@
 <!DOCTYPE html>
-
-<!-- 
-  To change the theme, change the class on the html tag below to one of:
-  - theme-auto: Automatically switches based on user's system preferences
-  - theme-light: Forces light theme
-  - theme-dark: Forces dark theme
--->
-
-<html class="theme-auto" lang="en"> <!-- Update`class="theme-auto" with your preference -->
-
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-    <!-- Page Title - Change this to your name/brand (50-60 characters recommended) -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scott MacLeod</title>
-    <link rel="icon" type="image/x-icon" href="/images/avatar.png"> <!-- Update this with your own favicon -->
-    
-    <!-- Meta Description - Write a description (150-160 characters recommended) -->
-    <meta name="description" content="Product Owner for BrokerEngine, developing solutions for brokers and their customers.">
-    
-    <!-- Keywords -->
-    <meta name="keywords" content="Scott MacLeod, product owner, product management, financial technology, fintech">
-    
-    <!-- Canonical URL - Helps prevent duplicate content issues -->
-    <meta rel="canonical" href="https://scottmacleod.co">
-    
-    <!-- Author Information -->
-    <meta name="author" content="Scott MacLeod">
-    
-    <!-- Stylesheets -->
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/brands.css">
-  
-    <!-- LittleLink Extended Stylesheet (Optional) -->
-    <!-- <link rel="stylesheet" href="css/brands-extended.css"> -->
-    <!-- Learn more at https://github.com/sethcottle/littlelink-extended. 
-         Remove comments if you've added LittleLink Extended dependencies -->
+    <meta name="description" content="Product Owner for BrokerEngine" />
+    <meta property="og:title" content="Scott MacLeod" />
+    <meta property="og:description" content="Product Owner for BrokerEngine – Fintech Product Manager with a passion for user-first solutions." />
+    <meta property="og:image" content="brisbaneatdawnbyscottmacleod.jpg" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Scott MacLeod" />
+    <meta name="twitter:description" content="Product Owner for BrokerEngine – Fintech Product Manager with a passion for user-first solutions." />
+    <meta name="twitter:image" content="brisbaneatdawnbyscottmacleod.jpg" />
+    <style>
+      :root {
+        --primary-color: #001f3f;
+        --accent-color: #0074d9;
+        --bg-color: #ffffff;
+        --text-color: #1e1e1e;
+        --subtext-color: #555;
+        --job-title-color: #001f3f;
+      }
 
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-color: #121212;
+          --text-color: #e0e0e0;
+          --subtext-color: #bbbbbb;
+          --job-title-color: #ffffff;
+          --accent-color: #66bfff;
+        }
+
+        header {
+          background-color: #001f3f;
+          color: white;
+        }
+
+        aside {
+          border-color: #444;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        line-height: 1.6;
+      }
+
+      header {
+        background-color: var(--primary-color);
+        color: white;
+        padding: 2rem 1rem;
+      }
+
+      .header-content {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .header-content h1 {
+        margin: 0;
+        font-size: 2.5rem;
+      }
+
+      .header-content .summary {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+        max-width: 800px;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 2rem;
+        gap: 2rem;
+        max-width: 1200px;
+        margin: auto;
+      }
+
+      aside {
+        flex: 1 1 300px;
+        padding-left: 1rem;
+        order: 2;
+      }
+
+      aside h2 {
+        margin-top: 2rem;
+      }
+
+      main {
+        flex: 2 1 600px;
+        order: 1;
+      }
+
+      h2 {
+        border-bottom: 2px solid var(--accent-color);
+        padding-bottom: 0.3rem;
+        margin-top: 2rem;
+      }
+
+      .job-title {
+        font-weight: 700;
+        font-size: 1.1rem;
+        color: var(--job-title-color);
+      }
+
+      .company {
+        font-style: normal;
+        font-weight: 600;
+      }
+
+      .date {
+        float: right;
+        color: var(--subtext-color);
+        font-size: 0.9rem;
+      }
+
+      ul {
+        padding-left: 1.2rem;
+      }
+
+      a {
+        color: var(--accent-color);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          flex-direction: column;
+          padding: 1rem;
+        }
+
+        main {
+          order: -1;
+        }
+
+        aside {
+          border-right: none;
+          padding-right: 0;
+          order: 2;
+        }
+
+        .header-content {
+          padding-left: 1rem;
+        }
+
+        .date {
+          float: none;
+          display: block;
+          margin-top: 0.25rem;
+        }
+      }
+    </style>
   </head>
-
-<body>
+  <body>
+    <header>
+      <div class="header-content">
+        <h1>Scott MacLeod</h1>
+        <p class="summary">
+          Product manager with a strong fintech background, dedicated to
+          building seamless, user-first experiences for brokers and their
+          clients. Proven ability to lead cross-functional teams, drive product
+          discovery, and deliver impactful features using agile principles.
+        </p>
+      </div>
+    </header>
 
     <div class="container">
-        <div class="column">
+      <aside>
+        <h2>Contact</h2>
+        <p>
+          Queensland, Australia<br />
+          <a href="https://linkedin.com/in/scottwmacleod">LinkedIn</a>
+        </p>
 
-            <!-- 
-              By default, the Avatar is rounded. Use the following:
-              - avatar--rounded: Automatically rounds the image
-              - avatar--soft: Slightly rounds the image
-              - avatar--none: Removes any rounding
+        <h2>Education</h2>
+        <p>
+          <strong>QUT (Queensland University of Technology)</strong><br />
+          <em>Bachelor of Business, Advertising and Integrated Marketing Communications</em><br />
+          2011 – 2013
+        </p>
 
-              Be sure to replace the src with your own image path and update the alt text
-            -->
-            <img class="avatar avatar--rounded" src="images/me.jpg" srcset="images/me.jpg 2x" alt="Scott MacLeod">
+        <h2>Skills</h2>
+        <ul>
+          <li>Agile / Scrum methodologies</li>
+          <li>Product discovery and user research</li>
+          <li>Wireframing and UX design</li>
+          <li>Jira, Confluence, Figma, Amplitude</li>
+          <li>Strong communication and stakeholder management</li>
+        </ul>
 
-            <!-- Replace with your name or brand -->
-            <h1>
-              <div>Scott MacLeod</div>
-            </h1>
+        <h2>Certifications</h2>
+        <ul>
+          <li>Certified Scrum Product Owner (CSPO)</li>
+          <li>Pragmatic Institute – Foundations & Focus</li>
+          <li>Google UX Design Certificate</li>
+        </ul>
+      </aside>
 
-            <!-- Add a short description about yourself or your brand -->
-            <p>Product Owner for BrokerEngine, developing solutions for brokers and their customers.</p>
+      <main>
+        <div class="section">
+          <h2>Experience</h2>
+          <div>
+            <span class="job-title">BrokerEngine Product Owner</span><br />
+            <span class="company">AFG</span>
+            <span class="date">2023 – Present</span>
+            <ul>
+              <li>
+                Owned and prioritized the product backlog, translating business
+                needs and broker insights into clear, outcome-driven user stories.
+              </li>
+              <li>
+                Led the end-to-end delivery of an integrated lodgement flow
+                (Fact Find, Credit Guide, Privacy Consent, Credit Proposal, and
+                lodgement via AOL and Simpology), reducing broker admin time by
+                90+ minutes per deal.
+              </li>
+              <li>
+                Championed Agile practices, acting as Scrum facilitator to drive
+                iterative delivery and continuous improvement.
+              </li>
+              <li>
+                Partnered with engineering, design, and customer success to
+                align discovery and delivery with strategic objectives.
+              </li>
+              <li>
+                Conducted ongoing user research and usability testing to
+                validate features and refine product direction.
+              </li>
+            </ul>
+          </div>
 
-            <!-- All your buttons go here -->
-            <div class="button-stack" role="navigation">
+          <div>
+            <span class="job-title">Scrum Master/Operations Manager</span><br />
+            <span class="company">BrokerEngine</span>
+            <span class="date">2017 – 2023</span>
+            <ul>
+              <li>
+                Acted as Scrum Master for the BrokerEngine development team,
+                facilitating daily stand-ups, sprint planning, retrospectives,
+                and ensuring delivery was aligned with the founders’ product
+                vision.
+              </li>
+              <li>
+                Championed agile best practices and created a culture of
+                continuous improvement across the product and engineering teams.
+              </li>
+              <li>
+                Established and maintained all operational systems of the
+                business including automation pipelines, IT infrastructure and
+                support workflows.
+              </li>
+              <li>
+                Designed and implemented scalable systems for billing, customer
+                support, CRM, and marketing automation, enabling BrokerEngine to
+                grow efficiently while minimizing overhead.
+              </li>
+              <li>
+                Worked cross-functionally to align internal operations with
+                customer-facing product strategy and support initiatives.
+              </li>
+            </ul>
+          </div>
 
-              <!-- LinkedIn -->
-              <a class="button button-linked" href="https://www.linkedin.com/in/scottwmacleod/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/linkedin.svg" alt="LinkedIn Logo">LinkedIn</a>
+          <div>
+            <span class="job-title">Operations Manager</span><br />
+            <span class="company">Marketing Results</span>
+            <span class="date">2016 – 2017</span>
+            <ul>
+              <li>
+                Oversaw daily operations and delivery processes for a portfolio
+                of digital marketing clients, ensuring efficiency, consistency,
+                and alignment with strategic goals.
+              </li>
+              <li>
+                Designed and implemented scalable automation systems using
+                <strong>Zapier</strong>, <strong>ActiveCampaign</strong>, and
+                <strong>Infusionsoft</strong> to streamline lead capture, email
+                marketing, and reporting workflows.
+              </li>
+              <li>
+                Improved team coordination and transparency by introducing
+                internal SOPs, documentation standards, and task management
+                practices.
+              </li>
+              <li>
+                Worked cross-functionally to ensure strategic alignment across
+                technical, creative, and client services teams.
+              </li>
+            </ul>
+          </div>
 
-              <!-- Generic Website -->
-              <a class="button button-default" href="https://brokerengine.com.au" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/generic-website.svg" alt="Website Icon">BrokerEngine</a>
-
-      </div>
-        
-      <!-- Feel free to add your own footer information, including updating `privacy.html` to reflect how your LittleLink fork is set up -->
-      <footer>
-        
-      </footer>
-    
+          <div>
+            <span class="job-title">Production Coordinator</span><br />
+            <span class="company">Marketing Results</span>
+            <span class="date">2013 – 2016</span>
+            <ul>
+              <li>
+                Supported the execution and delivery of digital marketing
+                campaigns across email, landing pages, and content channels.
+              </li>
+              <li>
+                Built and maintained marketing automation funnels using
+                <strong>Infusionsoft</strong> and
+                <strong>ActiveCampaign</strong>, facilitating highly targeted
+                customer journeys based on behaviour and lifecycle stage.
+              </li>
+              <li>
+                Used <strong>Zapier</strong> to integrate tools and automate
+                repetitive tasks, reducing manual effort and improving accuracy
+                across campaign setups.
+              </li>
+              <li>
+                Managed production timelines, conducted QA, and coordinated with
+                internal teams to ensure consistent, high-quality outputs.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </main>
     </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
