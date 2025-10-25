@@ -4,337 +4,410 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scott MacLeod</title>
-    <meta name="description" content="Product Owner for BrokerEngine" />
-    <meta property="og:title" content="Scott MacLeod" />
-    <meta property="og:description" content="Product Owner for BrokerEngine – Fintech Product Manager with a passion for user-first solutions." />
-    <meta property="og:image" content="brisbaneatdawnbyscottmacleod.jpg" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Scott MacLeod" />
-    <meta name="twitter:description" content="Product Owner for BrokerEngine – Fintech Product Manager with a passion for user-first solutions." />
-    <meta name="twitter:image" content="brisbaneatdawnbyscottmacleod.jpg" />
+    <meta name="description" content="Product Manager specializing in fintech and broker tools" />
     <style>
       :root {
-        --primary-color: #001f3f;
-        --accent-color: #0074d9;
-        --bg-color: #ffffff;
-        --text-color: #1e1e1e;
-        --subtext-color: #555;
-        --job-title-color: #001f3f;
+        --accent-color: #6366f1;
+        --bg-color: #eef2ff;
+        --text-color: #1e293b;
+        --text-secondary: #64748b;
+        --border-color: #e0e7ff;
+        --section-bg: #ffffff;
+        --card-bg: #ffffff;
       }
 
       @media (prefers-color-scheme: dark) {
         :root {
-          --bg-color: #121212;
-          --text-color: #e0e0e0;
-          --subtext-color: #bbbbbb;
-          --job-title-color: #ffffff;
-          --accent-color: #66bfff;
-        }
-
-        header {
-          background-color: #001f3f;
-          color: white;
-        }
-
-        aside {
-          border-color: #444;
+          --bg-color: #0c0a1f;
+          --text-color: #f1f5f9;
+          --text-secondary: #94a3b8;
+          --border-color: #1e1b3b;
+          --section-bg: #1e293b;
+          --accent-color: #818cf8;
+          --card-bg: #1a1830;
         }
       }
 
       * {
         box-sizing: border-box;
+        margin: 0;
+        padding: 0;
       }
 
       body {
-        margin: 0;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-          "Helvetica Neue", Helvetica, Arial, sans-serif;
+          "Helvetica Neue", Arial, sans-serif;
         background-color: var(--bg-color);
         color: var(--text-color);
-        line-height: 1.6;
-      }
-
-      header {
-        background-color: var(--primary-color);
-        color: white;
+        line-height: 1.7;
         padding: 2rem 1rem;
       }
 
-      .header-content {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding-left: 2rem;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .header-content h1 {
-        margin: 0;
-        font-size: 2.5rem;
-      }
-
-      .header-content .summary {
-        margin-top: 1rem;
-        font-size: 1.1rem;
-        max-width: 800px;
-      }
-
       .container {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 2rem;
-        gap: 2rem;
-        max-width: 1200px;
-        margin: auto;
+        max-width: 1000px;
+        margin: 0 auto;
       }
 
-      aside {
-        flex: 1 1 300px;
-        padding-left: 1rem;
-        order: 2;
+      /* Header Section */
+      .hero {
+        margin-bottom: 4rem;
       }
 
-      aside h2 {
-        margin-top: 2rem;
-      }
-
-      main {
-        flex: 2 1 600px;
-        order: 1;
-      }
-
-      h2 {
-        border-bottom: 2px solid var(--accent-color);
-        padding-bottom: 0.3rem;
-        margin-top: 2rem;
-      }
-
-      .job-title {
+      .hero h1 {
+        font-size: 3rem;
         font-weight: 700;
-        font-size: 1.1rem;
-        color: var(--job-title-color);
+        letter-spacing: -0.02em;
+        margin-bottom: 0.5rem;
+        line-height: 1.1;
       }
 
-      .company {
-        font-style: normal;
-        font-weight: 600;
+      .hero .tagline {
+        font-size: 1.25rem;
+        color: var(--accent-color);
+        font-weight: 500;
+        margin-bottom: 1rem;
       }
 
-      .date {
-        float: right;
-        color: var(--subtext-color);
-        font-size: 0.9rem;
+      .hero .summary {
+        font-size: 1.05rem;
+        color: var(--text-secondary);
+        max-width: 700px;
+        line-height: 1.6;
       }
 
-      ul {
-        padding-left: 1.2rem;
+      .contact-bar {
+        display: flex;
+        gap: 2rem;
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+        font-size: 0.95rem;
       }
 
-      a {
+      .contact-bar a {
         color: var(--accent-color);
         text-decoration: none;
+        font-weight: 500;
       }
 
-      a:hover {
+      .contact-bar a:hover {
         text-decoration: underline;
       }
 
-      @media (max-width: 768px) {
-        .container {
-          flex-direction: column;
-          padding: 1rem;
-        }
+      .contact-bar span {
+        color: var(--text-secondary);
+      }
 
-        main {
-          order: -1;
+      /* Layout Grid */
+      .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 320px;
+        gap: 3rem;
+        margin-top: 3rem;
+      }
+
+      /* Main Content */
+      main {
+        background: var(--card-bg);
+        padding: 2.5rem;
+        border-radius: 12px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+
+      main h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+      }
+
+      main h2:first-child {
+        margin-top: 0;
+      }
+
+      .experience-item {
+        margin-bottom: 2.5rem;
+        padding-bottom: 2.5rem;
+        border-bottom: 1px solid var(--border-color);
+      }
+
+      .experience-item:last-child {
+        border-bottom: none;
+      }
+
+      .experience-header {
+        margin-bottom: 1rem;
+      }
+
+      .job-title {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: var(--text-color);
+        display: block;
+        margin-bottom: 0.25rem;
+      }
+
+      .company-date {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+
+      .company {
+        font-weight: 500;
+        color: var(--text-secondary);
+      }
+
+      .date {
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+      }
+
+      .experience-item ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .experience-item li {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 0.75rem;
+        color: var(--text-secondary);
+      }
+
+      .experience-item li:before {
+        content: "▸";
+        position: absolute;
+        left: 0;
+        color: var(--accent-color);
+        font-weight: bold;
+      }
+
+      /* Sidebar */
+      aside {
+        position: sticky;
+        top: 2rem;
+        align-self: start;
+        background: var(--card-bg);
+        padding: 2rem;
+        border-radius: 12px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+      }
+
+      .sidebar-section {
+        margin-bottom: 2.5rem;
+      }
+
+      .sidebar-section h3 {
+        font-size: 0.875rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        color: var(--text-secondary);
+        margin-bottom: 1rem;
+      }
+
+      .sidebar-section ul {
+        list-style: none;
+      }
+
+      .sidebar-section li {
+        margin-bottom: 0.5rem;
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+      }
+
+      .sidebar-section p {
+        color: var(--text-secondary);
+        font-size: 0.95rem;
+        line-height: 1.6;
+      }
+
+      .sidebar-section strong {
+        color: var(--text-color);
+        display: block;
+        margin-bottom: 0.25rem;
+      }
+
+      .sidebar-section em {
+        font-size: 0.9rem;
+        display: block;
+        margin-bottom: 0.25rem;
+      }
+
+      /* Responsive */
+      @media (max-width: 900px) {
+        .content-grid {
+          grid-template-columns: 1fr;
+          gap: 3rem;
         }
 
         aside {
-          border-right: none;
-          padding-right: 0;
-          order: 2;
+          position: static;
+          border-top: 2px solid var(--border-color);
+          padding-top: 3rem;
         }
 
-        .header-content {
-          padding-left: 1rem;
+        .hero h1 {
+          font-size: 2.25rem;
+        }
+      }
+
+      @media (max-width: 640px) {
+        body {
+          padding: 1.5rem 1rem;
         }
 
-        .date {
-          float: none;
-          display: block;
-          margin-top: 0.25rem;
+        .hero h1 {
+          font-size: 2rem;
+        }
+
+        .hero .tagline {
+          font-size: 1.1rem;
+        }
+
+        .hero .summary {
+          font-size: 1rem;
+        }
+
+        .content-grid {
+          gap: 2rem;
+        }
+
+        .company-date {
+          flex-direction: column;
+          gap: 0.25rem;
         }
       }
     </style>
   </head>
   <body>
-    <header>
-      <div class="header-content">
+    <div class="container">
+      <!-- Hero Section -->
+      <div class="hero">
         <h1>Scott MacLeod</h1>
+        <div class="tagline">Product Manager • Fintech</div>
         <p class="summary">
-          Product manager with a strong fintech background, dedicated to
-          building seamless, user-first experiences for brokers and their
+          Dedicated to building seamless, user-first experiences for brokers and their
           clients. Proven ability to lead cross-functional teams, drive product
           discovery, and deliver impactful features using agile principles.
         </p>
-      </div>
-    </header>
-
-    <div class="container">
-      <aside>
-        <h2>Contact</h2>
-        <p>
-          Queensland, Australia<br />
-          <a href="https://linkedin.com/in/scottwmacleod">LinkedIn</a>
-        </p>
-
-        <h2>Education</h2>
-        <p>
-          <strong>QUT (Queensland University of Technology)</strong><br />
-          <em>Bachelor of Business, Advertising and Integrated Marketing Communications</em><br />
-          2011 – 2013
-        </p>
-
-        <h2>Skills</h2>
-        <ul>
-          <li>Agile / Scrum methodologies</li>
-          <li>Product discovery and user research</li>
-          <li>Wireframing and UX design</li>
-          <li>Jira, Confluence, PostHog</li>
-          <li>Strong communication and stakeholder management</li>
-        </ul>
-
-        <h2>Certifications</h2>
-        <ul>
-          <li>Certified Scrum Product Owner (CSPO)</li>
-          <li>Pragmatic Institute – Foundations & Focus</li>
-          <li>Google UX Design Certificate</li>
-        </ul>
-      </aside>
-
-      <main>
-        <div class="section">
-          <h2>Experience</h2>
-          <div>
-            <span class="job-title">BrokerEngine Product Owner</span><br />
-            <span class="company">AFG</span>
-            <span class="date">2023 – Present</span>
-            <ul>
-              <li>
-                Owned and prioritized the product backlog, translating business
-                needs and broker insights into clear, outcome-driven user stories.
-              </li>
-              <li>
-                Led the end-to-end delivery of an integrated lodgement flow
-                (Fact Find, Credit Guide, Privacy Consent, Credit Proposal, and
-                lodgement via AOL and Simpology), reducing broker admin time by
-                90+ minutes per deal.
-              </li>
-              <li>
-                Championed Agile practices, acting as Scrum facilitator to drive
-                iterative delivery and continuous improvement.
-              </li>
-              <li>
-                Partnered with engineering, design, and customer success to
-                align discovery and delivery with strategic objectives.
-              </li>
-              <li>
-                Conducted ongoing user research and usability testing to
-                validate features and refine product direction.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <span class="job-title">Scrum Master/Operations Manager</span><br />
-            <span class="company">BrokerEngine</span>
-            <span class="date">2017 – 2023</span>
-            <ul>
-              <li>
-                Acted as Scrum Master for the BrokerEngine development team,
-                facilitating daily stand-ups, sprint planning, retrospectives,
-                and ensuring delivery was aligned with the founders’ product
-                vision.
-              </li>
-              <li>
-                Championed agile best practices and created a culture of
-                continuous improvement across the product and engineering teams.
-              </li>
-              <li>
-                Established and maintained all operational systems of the
-                business including automation pipelines, IT infrastructure and
-                support workflows.
-              </li>
-              <li>
-                Designed and implemented scalable systems for billing, customer
-                support, CRM, and marketing automation, enabling BrokerEngine to
-                grow efficiently while minimizing overhead.
-              </li>
-              <li>
-                Worked cross-functionally to align internal operations with
-                customer-facing product strategy and support initiatives.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <span class="job-title">Operations Manager</span><br />
-            <span class="company">Marketing Results</span>
-            <span class="date">2016 – 2017</span>
-            <ul>
-              <li>
-                Oversaw daily operations and delivery processes for a portfolio
-                of digital marketing clients, ensuring efficiency, consistency,
-                and alignment with strategic goals.
-              </li>
-              <li>
-                Designed and implemented scalable automation systems using
-                <strong>Zapier</strong>, <strong>ActiveCampaign</strong>, and
-                <strong>Infusionsoft</strong> to streamline lead capture, email
-                marketing, and reporting workflows.
-              </li>
-              <li>
-                Improved team coordination and transparency by introducing
-                internal SOPs, documentation standards, and task management
-                practices.
-              </li>
-              <li>
-                Worked cross-functionally to ensure strategic alignment across
-                technical, creative, and client services teams.
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <span class="job-title">Production Coordinator</span><br />
-            <span class="company">Marketing Results</span>
-            <span class="date">2013 – 2016</span>
-            <ul>
-              <li>
-                Supported the execution and delivery of digital marketing
-                campaigns across email, landing pages, and content channels.
-              </li>
-              <li>
-                Built and maintained marketing automation funnels using
-                <strong>Infusionsoft</strong> and
-                <strong>ActiveCampaign</strong>, facilitating highly targeted
-                customer journeys based on behaviour and lifecycle stage.
-              </li>
-              <li>
-                Used <strong>Zapier</strong> to integrate tools and automate
-                repetitive tasks, reducing manual effort and improving accuracy
-                across campaign setups.
-              </li>
-              <li>
-                Managed production timelines, conducted QA, and coordinated with
-                internal teams to ensure consistent, high-quality outputs.
-              </li>
-            </ul>
-          </div>
+        <div class="contact-bar">
+          <span>📍 Queensland, Australia</span>
+          <a href="mailto:contact@scottmacleod.co">contact@scottmacleod.co</a>
+          <a href="https://linkedin.com/in/scottwmacleod" target="_blank">LinkedIn →</a>
         </div>
-      </main>
+      </div>
+
+      <!-- Main Grid -->
+      <div class="content-grid">
+        <!-- Main Content -->
+        <main>
+          <h2>Experience</h2>
+
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="job-title">BrokerEngine Product Owner</span>
+              <div class="company-date">
+                <span class="company">AFG</span>
+                <span class="date">2023 – Present</span>
+              </div>
+            </div>
+            <ul>
+              <li>
+                Owned and prioritised the product backlog for a platform serving ~4,000 mortgage brokers and loan processors (supporting ~25,000 end clients monthly), translating business needs and broker insights into clear, outcome-driven user stories.
+              </li>
+              <li>
+                Led the end-to-end delivery of an integrated lodgement flow (Fact Find, Credit Guide, Privacy Consent, Credit Proposal, and lodgement via AOL and Simpology), reducing broker admin time by 90+ minutes per deal.
+              </li>
+              <li>
+                Partnered with an 8-person cross-functional team within a 40-person technology organisation (engineering, design, and customer success) to align discovery and delivery with strategic objectives, contributing to 100% user growth during tenure.
+              </li>
+              <li>
+                Conducted ongoing user research and usability testing, achieving high NPS and validating features before release.
+              </li>
+              <li>
+                Championed Agile practices, acting as Scrum facilitator to drive iterative delivery and continuous improvement.
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="job-title">Scrum Master/Operations Manager</span>
+              <div class="company-date">
+                <span class="company">BrokerEngine</span>
+                <span class="date">2017 – 2023</span>
+              </div>
+            </div>
+            <ul>
+              <li>
+                Acted as Scrum Master for the BrokerEngine development team, facilitating agile ceremonies and ensuring delivery aligned with the founders' product vision.
+              </li>
+              <li>
+                Helped scale the platform from inception to ~2,000 paying users, championing agile best practices and fostering continuous improvement.
+              </li>
+              <li>
+                Established operational systems including automation pipelines, IT infrastructure, and support workflows to enable efficient growth.
+              </li>
+              <li>
+                Designed and implemented scalable systems for billing, customer support, CRM, and marketing automation, minimising operational overhead.
+              </li>
+            </ul>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-header">
+              <span class="job-title">Operations Manager / Production Coordinator</span>
+              <div class="company-date">
+                <span class="company">Marketing Results</span>
+                <span class="date">2013 – 2017</span>
+              </div>
+            </div>
+            <ul>
+              <li>
+                Progressed from Production Coordinator to Operations Manager, overseeing delivery processes for a portfolio of digital marketing clients.
+              </li>
+              <li>
+                Designed and implemented automation systems using Zapier, ActiveCampaign, and Infusionsoft to streamline lead capture, email marketing, and campaign workflows.
+              </li>
+              <li>
+                Built and maintained marketing automation funnels, facilitating targeted customer journeys based on behaviour and lifecycle stage.
+              </li>
+              <li>
+                Improved team coordination by introducing SOPs, documentation standards, and task management practices.
+              </li>
+            </ul>
+          </div>
+        </main>
+
+        <!-- Sidebar -->
+        <aside>
+          <div class="sidebar-section">
+            <h3>Skills</h3>
+            <ul>
+              <li>Agile / Scrum methodologies</li>
+              <li>Product discovery & user research</li>
+              <li>Fintech & mortgage broking domain</li>
+              <li>Wireframing and UX design (Figma)</li>
+              <li>Jira, Confluence, PostHog, Datadog</li>
+              <li>Google Analytics</li>
+              <li>Stakeholder management</li>
+            </ul>
+          </div>
+
+          <div class="sidebar-section">
+            <h3>Education</h3>
+            <p>
+              <strong>QUT</strong>
+              <em>Bachelor of Business</em>
+              <em>Advertising & Integrated Marketing</em>
+              2011 – 2013
+            </p>
+          </div>
+        </aside>
+      </div>
     </div>
   </body>
 </html>
