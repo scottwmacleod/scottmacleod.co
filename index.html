@@ -10,16 +10,13 @@
   <meta property="og:title" content="Scott MacLeod — Product Manager" />
   <meta property="og:description" content="Building seamless, user-first products for brokers and their clients." />
   <meta property="og:url" content="https://scottmacleod.co" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
   <script>
     !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled getFeatureFlag getFeatureFlagPayload reloadFeatureFlags group identify setPersonProperties setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags resetGroups onFeatureFlags addFeatureFlagsHandler onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
     posthog.init('phc_aXuvHk7ezlvNaFmPkzfNeUJZyAa1y7C664Y24nQ3NNX', {
         api_host: 'https://us.i.posthog.com',
         defaults: '2026-01-30'
     })
-</script>
+  </script>
   <style>
     :root {
       --ink: #0f0e0c;
@@ -30,8 +27,10 @@
       --accent: #c8693a;
       --accent-light: #f0ddd3;
       --rule: #dedad4;
-      --serif: 'Fraunces', Georgia, serif;
-      --sans: 'DM Sans', sans-serif;
+      /* System serif stack: Georgia is universally available and elegant */
+      --serif: Georgia, 'Times New Roman', serif;
+      /* System sans stack: modern OS UI fonts first, solid fallbacks */
+      --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
     }
 
     [data-theme="dark"] {
@@ -72,7 +71,7 @@
       background: var(--paper);
       color: var(--ink);
       font-family: var(--sans);
-      font-weight: 300;
+      font-weight: 400;
       line-height: 1.7;
       min-height: 100vh;
     }
@@ -139,7 +138,7 @@
     .name-block h1 {
       font-family: var(--serif);
       font-size: clamp(3rem, 7vw, 5.5rem);
-      font-weight: 300;
+      font-weight: normal;
       line-height: 0.95;
       letter-spacing: -0.02em;
       color: var(--ink);
@@ -178,7 +177,7 @@
       font-family: var(--serif);
       font-style: italic;
       font-size: 1.2rem;
-      font-weight: 300;
+      font-weight: normal;
       color: var(--ink-secondary);
       max-width: 560px;
       line-height: 1.5;
@@ -226,7 +225,7 @@
 
     .summary-band strong {
       color: var(--ink);
-      font-weight: 500;
+      font-weight: 600;
     }
 
     /* ─── Body ─── */
@@ -253,7 +252,7 @@
 
     .section-label {
       font-size: 0.7rem;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: var(--ink-tertiary);
@@ -296,7 +295,7 @@
     .exp-title {
       font-family: var(--serif);
       font-size: 1.25rem;
-      font-weight: 400;
+      font-weight: normal;
       color: var(--ink);
       line-height: 1.2;
     }
@@ -308,7 +307,7 @@
 
     .exp-company {
       font-size: 0.875rem;
-      font-weight: 500;
+      font-weight: 600;
       color: var(--accent);
       display: block;
     }
@@ -342,7 +341,7 @@
 
     .exp-bullets li strong {
       color: var(--ink);
-      font-weight: 500;
+      font-weight: 600;
     }
 
     /* ─── Sidebar ─── */
@@ -356,7 +355,7 @@
 
     .side-label {
       font-size: 0.7rem;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: 0.15em;
       text-transform: uppercase;
       color: var(--ink-tertiary);
@@ -372,7 +371,7 @@
 
     .skill-group-label {
       font-size: 0.75rem;
-      font-weight: 500;
+      font-weight: 600;
       color: var(--ink);
       margin-bottom: 0.4rem;
       text-transform: uppercase;
@@ -403,7 +402,7 @@
     .edu-school {
       font-family: var(--serif);
       font-size: 1rem;
-      font-weight: 400;
+      font-weight: normal;
       color: var(--ink);
       margin-bottom: 0.15rem;
     }
@@ -435,7 +434,7 @@
       display: block;
       color: var(--accent);
       font-size: 0.75rem;
-      font-weight: 500;
+      font-weight: 600;
       letter-spacing: 0.08em;
       text-transform: uppercase;
       margin-bottom: 0.4rem;
@@ -527,11 +526,11 @@
 <body>
 
   <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
-  <span class="toggle-icon" id="toggleIcon">🌙</span>
-  <span id="toggleLabel">Dark</span>
-</button>
+    <span class="toggle-icon" id="toggleIcon">🌙</span>
+    <span id="toggleLabel">Dark</span>
+  </button>
 
-<div class="top-rule"></div>
+  <div class="top-rule"></div>
 
   <div class="page">
 
@@ -557,8 +556,8 @@
   <div class="summary-band">
     <div class="page">
       <p>
-        Product manager with <strong>12+ years</strong> growing and shipping fintech products in the Australian mortgage broking industry. 
-        Built a platform from zero to <strong>4,000 brokers</strong>, cut compliance admin by over 90 minutes per deal, and doubled the user base in two years — 
+        Product manager with <strong>12+ years</strong> growing and shipping fintech products in the Australian mortgage broking industry.
+        Built a platform from zero to <strong>4,000 brokers</strong>, cut compliance admin by over 90 minutes per deal, and doubled the user base in two years —
         all while keeping NPS high and teams aligned.
       </p>
     </div>
@@ -700,30 +699,29 @@
 
   </div>
 
-<script>
-  const root = document.documentElement;
-  const btn = document.getElementById('themeToggle');
-  const icon = document.getElementById('toggleIcon');
-  const label = document.getElementById('toggleLabel');
+  <script>
+    const root = document.documentElement;
+    const btn = document.getElementById('themeToggle');
+    const icon = document.getElementById('toggleIcon');
+    const label = document.getElementById('toggleLabel');
 
-  // Determine initial theme: check localStorage, then system preference
-  const saved = localStorage.getItem('theme');
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-  let isDark = saved ? saved === 'dark' : prefersDark;
+    const saved = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    let isDark = saved ? saved === 'dark' : prefersDark;
 
-  function applyTheme(dark) {
-    root.setAttribute('data-theme', dark ? 'dark' : 'light');
-    icon.textContent = dark ? '☀️' : '🌙';
-    label.textContent = dark ? 'Light' : 'Dark';
-    localStorage.setItem('theme', dark ? 'dark' : 'light');
-  }
+    function applyTheme(dark) {
+      root.setAttribute('data-theme', dark ? 'dark' : 'light');
+      icon.textContent = dark ? '☀️' : '🌙';
+      label.textContent = dark ? 'Light' : 'Dark';
+      localStorage.setItem('theme', dark ? 'dark' : 'light');
+    }
 
-  applyTheme(isDark);
-
-  btn.addEventListener('click', () => {
-    isDark = !isDark;
     applyTheme(isDark);
-  });
-</script>
+
+    btn.addEventListener('click', () => {
+      isDark = !isDark;
+      applyTheme(isDark);
+    });
+  </script>
 </body>
 </html>
